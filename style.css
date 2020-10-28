@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+h1 {
+  color: #16697a;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: #16697a;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+h3 {
+  color: rgb(10, 10, 10, 0.8);
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+body {
+  color: #575F7D;
+  background-color: #F7F9FC;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  }
+
+a {
+  color: #495464;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #213e3b;
+  font-weight: 300;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+.card {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  width: 60%;
+  margin: 20px auto;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.img-circle {
+  border-radius: 50%;
+  box-shadow: 2px 2px 20px rgba(0,0,0,0.9);
+}
+
+.container {
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 0px 20px;
+  list-style: none;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.header {
+  background-color: #fafcc2;
+}
+
+.title-light {
+  color: #407088;
+  font-weight: 200;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+#subtitle_thin {
+  font-weight: 400;
+  color: #16697a;
+}
+
+.icon {
+  color: rgba(0,0,0,0.4);
+}
